@@ -1,7 +1,7 @@
 <template>
   <el-dropdown>
     <span class="el-dropdown-link">
-      <el-avatar shape="square" :size="40" :src="squareUrl" />
+      <el-avatar shape="square" :size="40" :src="currentUser.value.avatar" />
       &nbsp;&nbsp;{{ currentUser.username }}&nbsp;<el-icon class="el-icon--right"><arrow-down /></el-icon>
     </span>
 

@@ -2,7 +2,7 @@
   <div class="login">
 
     <el-form ref="loginRef" :model="loginForm" :rules="loginRules" class="login-form">
-      <h3 class="title">Java1234 Vue3 后台管理系统</h3>
+      <h1 class="title">AIGC——智慧助手 管理端</h1>
 
       <el-form-item prop="username">
 
@@ -60,7 +60,7 @@
     </el-form>
     <!--  底部  -->
     <div class="el-login-footer">
-      <span>Copyright © 2013-2022 <a href="http://www.java1234.vip" target="_blank">java1234.vip</a> 版权所有.</span>
+      Copyright © 2025 LSchina 版权所有&nbsp;&nbsp;<a href="https://github.com/LSchina" target="_blank">LSchina.github.cn</a>
     </div>
   </div>
 </template>
@@ -238,10 +238,12 @@ a{
   justify-content: center;
   align-items: center;
   height: 100%;
-  background-image: url("../assets/images/login-background.jpg");
+  background-image: url("https://img.shetu66.com/2023/07/14/1689302077000124.png");
+  background-color: #e6e6e6;
   background-size: cover;
 }
 .title {
+  font-size: 22px;
   margin: 0px auto 30px auto;
   text-align: center;
   color: #707070;

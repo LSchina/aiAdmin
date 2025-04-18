@@ -21,7 +21,9 @@
         <el-table-column type="selection" width="55" />
         <el-table-column prop="avatar" label="头像" width="80" align="center">
           <template v-slot="scope">
-            <img :src="getServerUrl()+'image/userAvatar/'+scope.row.avatar" width="50" height="50"/>
+<!--            <img :src="getServerUrl()+'image/userAvatar/'+scope.row.avatar" width="50" height="50"/>-->
+            <img :src="scope.row.avatar" width="50" height="50"/>
+
           </template>
         </el-table-column>
         <el-table-column prop="username" label="用户名" width="100" align="center"/>
